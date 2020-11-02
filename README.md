@@ -1,6 +1,8 @@
 # ReadMe y análisis de complejidad
 
-El archivo txt contiene 20 de los libros más vendidos del presente año,
+El archivo "books.txt" contiene 17 de los libros más vendidos del presente año,
+
+mientras que el archivo "casosprueba.txt", incluye algunos casos de prueba
 
 el programa incluye un menú con funciones como:
 
@@ -24,7 +26,7 @@ Esta opción tiene la opción de imprimir o guardar en un archivo nuevo.
 
 Igual que en caso anterior, se utilizó un sort, con atributo Autor
 
-el análisis de complekidad sería igual que en el caso anterior O(n^2) 
+el análisis de complejidad sería igual que en el caso anterior O(n^2) 
 
 De igual manera incluye la opción de imprimir o guardar en un archivo nuevo los resultados.
 
