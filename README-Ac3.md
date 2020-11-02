@@ -32,6 +32,10 @@ el análisis de complejidad sería igual que en el caso anterior O(n^2)
 
 De igual manera incluye la opción de imprimir o guardar en un archivo nuevo los resultados.
 
+------4. y 5. Búsqueda por autor y título-----
+
+Ambas tienen una complejidad de O(log(n)) ya que busca en los elementos dados
+
 ----- 6. Encontrar repeticiones -----
 
 Para este caso se utilizó la estructura de una árbol de búsqueda binaria o BST
