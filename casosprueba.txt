@@ -1,0 +1,225 @@
+CASOS DE PRUEBA:
+Ejecución correcta del programa
+
+Caso 1:
+	Input: 1
+	Output esperado:
+	Tittle      Author   Rating
+	TheBookThief   MarkusZusak  4.6
+	Divergent   VeronicaRoth  4.6
+	Becoming   MichelleObama  4.8
+	TheLoveDare   StephenKendrick  4.8
+	TheSonofNeptune   RickRiordan  4.8
+	SteveJobs   WalterIsaacson  4.6
+	MilkandHoney   RupiKaur  4.7
+	TheGirlontheTrain   PaulaHawkins  4.1
+	TheGreatGatsby   F.ScottFitzgerald  4.4
+	ToKillaMockingbird   HarperLee  4.8
+	LookingforAlaska   JohnGreen  4.5
+	Joyland(HardCaseCrime)   StephenKing  4.5
+	TheImmortalLifeofHenriettaLacks   RebeccaSkloot  4.7
+	TheSubtleArtofNotGivingaF*ck   MarkManson  4.6
+	CatchingFire(TheHungerGames)   SuzanneCollins  4.7
+	HarryPotterandtheSorcerersStone   J.K.Rowling  4.9
+	Wonder   R.J.Palacio  4.8
+Nota-Agregar opción para opcion incorrecta.
+
+Caso 2:
+	Input: 2,P
+	Output esperado:
+	BN:	Tittle A-Z          Author  	 Rating
+	3 	Becoming              MichelleObama   4.8
+	15 	CatchingFire(TheHungerGames)         SuzanneCollins   4.7
+	2 	Divergent             VeronicaRoth   4.6
+	16 	HarryPotterandtheSorcerersStone              J.K.Rowling   4.9
+	12 	Joyland(HardCaseCrime)  StephenKing   4.5
+	11 	LookingforAlaska      JohnGreen   4.5
+	7 	MilkandHoney          RupiKaur   4.7
+	6 	SteveJobs             WalterIsaacson   4.6
+	1 	TheBookThief          MarkusZusak   4.6
+	8 	TheGirlontheTrain             PaulaHawkins   4.1
+	9 	TheGreatGatsby                F.ScottFitzgerald   4.4
+	13 	TheImmortalLifeofHenriettaLacks              RebeccaSkloot   4.7
+	4 	TheLoveDare           StephenKendrick   4.8
+	5 	TheSonofNeptune               RickRiordan   4.8
+	14 	TheSubtleArtofNotGivingaF*ck         MarkManson   4.6
+	10 	ToKillaMockingbird           HarperLee   4.8
+	17 	Wonder               R.J.Palacio   4.8	
+
+Caso 3: 
+	Input: 2, p
+	Output esperado:
+	Exit Invalid Option
+
+caso 4:
+	Input: 2,s
+	Output esperado:
+	Exit Invalid Option
+
+caso 5:
+	Input: 2,S
+	Output esperado:
+	Sorted data in file SortedT.txt
+	File contentent:
+	BN:  Tittle A-Z  Author  	 Rating   
+	3 Becoming		MichelleObama   4.8   
+	15 CatchingFire(TheHungerGames)		SuzanneCollins   4.7   
+	2 Divergent		VeronicaRoth   4.6   
+	16 HarryPotterandtheSorcerersStone		J.K.Rowling   4.9   
+	12 Joyland(HardCaseCrime)		StephenKing   4.5   
+	11 LookingforAlaska		JohnGreen   4.5   
+	7 MilkandHoney		RupiKaur   4.7   
+	6 SteveJobs		WalterIsaacson   4.6   
+	1 TheBookThief		MarkusZusak   4.6   
+	8 TheGirlontheTrain		PaulaHawkins   4.1   
+	9 TheGreatGatsby		F.ScottFitzgerald   4.4   
+	13 TheImmortalLifeofHenriettaLacks		RebeccaSkloot   4.7   
+	4 TheLoveDare		StephenKendrick   4.8   
+	5 TheSonofNeptune		RickRiordan   4.8   
+	14 TheSubtleArtofNotGivingaF*ck		MarkManson   4.6   
+	10 ToKillaMockingbird		HarperLee   4.8   
+	17 Wonder		R.J.Palacio   4.8  
+
+caso 6:
+	Input: 3, 1
+	Output esperado:
+	BN: Tittle  			Author A-Z           Rating
+	9        TheGreatGatsby         F.ScottFitzgerald   4.4
+	10       ToKillaMockingbird             HarperLee   4.8
+	16       HarryPotterandtheSorcerersStone                J.K.Rowling   4.9
+	11       LookingforAlaska               JohnGreen   4.5
+	14       TheSubtleArtofNotGivingaF*ck           MarkManson   4.6
+	1        TheBookThief           MarkusZusak   4.6
+	3        Becoming               MichelleObama   4.8
+	8        TheGirlontheTrain              PaulaHawkins   4.1
+	17       Wonder         R.J.Palacio   4.8
+	13       TheImmortalLifeofHenriettaLacks                RebeccaSkloot   4.7
+	5        TheSonofNeptune                RickRiordan   4.8
+	7        MilkandHoney           RupiKaur   4.7
+	4        TheLoveDare            StephenKendrick   4.8
+	12       Joyland(HardCaseCrime)         StephenKing   4.5
+	15       CatchingFire(TheHungerGames)           SuzanneCollins   4.7
+	2        Divergent              VeronicaRoth   4.6
+	6        SteveJobs              WalterIsaacson   4.6
+
+caso 7:
+	Input: 3, 2
+	Output esperado:
+	Sorted data in file SortedA.txt
+	File Content:
+	BN: Tittle  			Author A-Z           Rating
+	9        TheGreatGatsby         F.ScottFitzgerald   4.4
+	10       ToKillaMockingbird             HarperLee   4.8
+	16       HarryPotterandtheSorcerersStone                J.K.Rowling   4.9
+	11       LookingforAlaska               JohnGreen   4.5
+	14       TheSubtleArtofNotGivingaF*ck           MarkManson   4.6
+	1        TheBookThief           MarkusZusak   4.6
+	3        Becoming               MichelleObama   4.8
+	8        TheGirlontheTrain              PaulaHawkins   4.1
+	17       Wonder         R.J.Palacio   4.8
+	13       TheImmortalLifeofHenriettaLacks                RebeccaSkloot   4.7
+	5        TheSonofNeptune                RickRiordan   4.8
+	7        MilkandHoney           RupiKaur   4.7
+	4        TheLoveDare            StephenKendrick   4.8
+	12       Joyland(HardCaseCrime)         StephenKing   4.5
+	15       CatchingFire(TheHungerGames)           SuzanneCollins   4.7
+	2        Divergent              VeronicaRoth   4.6
+	6        SteveJobs              WalterIsaacson   4.6
+
+caso 8:
+	Input: 3, a
+	Output esperado;
+	Exit, Inavlid Option
+
+caso 9:
+	Input: 4, Roth
+	Output esperado:
+	Enter First or Last mame of Author to find:
+	Roth
+	Divergent       VeronicaRoth    4.6
+
+case 10:
+	Input: 4, roth
+	Output esperado:
+	---
+
+caso 11:
+	Input: 5, and
+	Output esperado:
+	MilkandHoney    RupiKaur        4.7
+	Joyland(HardCaseCrime)  StephenKing     4.5
+	HarryPotterandtheSorcerersStone J.K.Rowling     4.9
+
+case 12:
+	Input: 5, games
+	Output esperado:
+	---	
+
+case 13:
+	Input: 6
+	Output:
+Repetition of characters
+         found 35 times
+( found 2 times
+) found 2 times
+* found 1 times
+- found 1 times
+. found 22 times
+0 found 1 times
+1 found 11 times
+2 found 2 times
+3 found 2 times
+4 found 20 times
+5 found 4 times
+6 found 6 times
+7 found 5 times
+8 found 6 times
+9 found 2 times
+: found 1 times
+A found 4 times
+B found 3 times
+C found 4 times
+D found 2 times
+F found 4 times
+G found 6 times
+H found 7 times
+I found 2 times
+J found 5 times
+K found 5 times
+L found 5 times
+M found 6 times
+N found 3 times
+O found 1 times
+P found 3 times
+R found 8 times
+S found 10 times
+T found 12 times
+V found 1 times
+W found 2 times
+Z found 2 times
+a found 41 times
+b found 6 times
+c found 15 times
+d found 9 times
+e found 55 times
+f found 6 times
+g found 11 times
+h found 18 times
+i found 31 times
+k found 14 times
+l found 19 times
+m found 6 times
+n found 35 times
+o found 36 times
+p found 5 times
+r found 33 times
+s found 14 times
+t found 29 times
+u found 10 times
+v found 4 times
+w found 2 times
+y found 4 times
+z found 2 times
+
+Nota-Agregar más funcionalidad 
+
