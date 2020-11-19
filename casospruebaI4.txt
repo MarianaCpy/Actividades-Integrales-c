@@ -1,0 +1,33 @@
+Input: 1
+Output esperado:
+Traveling from Mexico to LA would cost 6708
+Traveling from Mexico to Madrid would cost 18216.1
+Traveling from Mexico to Paris would cost 17127.3
+Traveling from Mexico to Tokio would cost 19240.5
+Traveling from LA to Mexico would cost 5631
+Traveling from LA to Tokio would cost 13753.4
+Traveling from Madrid to Mexico would cost 10080.9
+Traveling from Paris to Tokio would cost 12737.1
+Traveling from Paris to LA would cost 4260.3
+Traveling from Paris to Madrid would cost 481.8
+Traveling from Tokio to Paris would cost 17723.7
+Traveling from Tokio to Mexico would cost 32188.7
+
+Input: 2
+Output esperado:
+Matrix of posible destinations: 
+CN being the number of the city
+0=Mexico (Mx)
+1=LA (L)
+2=Madrid (M)
+3=Paris (P)
+4=Tokio (T)
+CN Mx L M P T
+0 : 0 1 1 1 1 
+1 : 1 0 0 1 1 
+2 : 1 0 0 1 0 
+3 : 1 1 1 0 1 
+4 : 1 1 0 1 0 
+
+(Agregar opción de pedir opción valida en caso de que el input sea 
+diferente de 1 y 2, para funcionalidad)
