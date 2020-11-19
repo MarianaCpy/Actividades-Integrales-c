@@ -1,0 +1,6 @@
+6
+Mexico LA 6708.0 Madrid 18216.1 Paris 17127.3 Tokio 19240.5 None
+LA Mexico 5631.0 Tokio 13753.4 None
+Madrid Mexico 10080.9 None
+Paris Tokio 12737.12 LA 4260.3 Madrid 481.8 None
+Tokio Paris 17723.7 Mexico 32188.65 None
